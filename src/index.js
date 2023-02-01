@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Podcasts from "./components/Podcasts";
 import Podcast from "./components/Podcast";
 import PodcastEpisode from "./components/PodcastEpisode";
+import "./index.css";
 
 ReactDOM.createRoot(
     document.getElementById("root")

@@ -13,7 +13,10 @@ export async function getPodcasts() {
             podcastId: x.id.attributes["im:id"],
             name: x["im:name"].label,
             author: x["im:artist"].label,
-            imageUrl: x["im:image"][0].label
+            image: {
+                url: x["im:image"][0].label,
+                size: x["im:image"][0].attributes.height
+            }
         }));
     } catch (error) {
         console.log(error);
