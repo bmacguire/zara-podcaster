@@ -1,0 +1,45 @@
+{
+    "resultCount": 1,
+    "results": [
+        {
+            "wrapperType": "track",
+            "kind": "podcast",
+            "collectionId": 1661154206,
+            "trackId": 1661154206,
+            "artistName": "iHeartPodcasts",
+            "collectionName": "Frosted Tips with Lance Bass",
+            "trackName": "Frosted Tips with Lance Bass",
+            "collectionCensoredName": "Frosted Tips with Lance Bass",
+            "trackCensoredName": "Frosted Tips with Lance Bass",
+            "collectionViewUrl": "https://podcasts.apple.com/us/podcast/frosted-tips-with-lance-bass/id1661154206?uo=4",
+            "feedUrl": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/e5a9488f-93ec-4a62-9ed1-af5600f1434b/podcast.rss",
+            "trackViewUrl": "https://podcasts.apple.com/us/podcast/frosted-tips-with-lance-bass/id1661154206?uo=4",
+            "artworkUrl30": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/07/88/b3/0788b35f-1829-6fbd-2488-ecaf83b8d8ab/mza_9852863690630397024.jpg/30x30bb.jpg",
+            "artworkUrl60": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/07/88/b3/0788b35f-1829-6fbd-2488-ecaf83b8d8ab/mza_9852863690630397024.jpg/60x60bb.jpg",
+            "artworkUrl100": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/07/88/b3/0788b35f-1829-6fbd-2488-ecaf83b8d8ab/mza_9852863690630397024.jpg/100x100bb.jpg",
+            "collectionPrice": 0,
+            "trackPrice": 0,
+            "collectionHdPrice": 0,
+            "releaseDate": "2023-01-25T20:00:00Z",
+            "collectionExplicitness": "notExplicit",
+            "trackExplicitness": "cleaned",
+            "trackCount": 6,
+            "trackTimeMillis": 2064,
+            "country": "USA",
+            "currency": "USD",
+            "primaryGenreName": "Music",
+            "contentAdvisoryRating": "Clean",
+            "artworkUrl600": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/07/88/b3/0788b35f-1829-6fbd-2488-ecaf83b8d8ab/mza_9852863690630397024.jpg/600x600bb.jpg",
+            "genreIds": [
+                "1310",
+                "26",
+                "1324"
+            ],
+            "genres": [
+                "Music",
+                "Podcasts",
+                "Society & Culture"
+            ]
+        }
+    ]
+}

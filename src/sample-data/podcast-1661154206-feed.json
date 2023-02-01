@@ -1,0 +1,543 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "utf-8"
+        }
+    },
+    "rss": {
+        "_attributes": {
+            "xmlns:itunes": "http://www.itunes.com/dtds/podcast-1.0.dtd",
+            "xmlns:atom": "http://www.w3.org/2005/Atom",
+            "xmlns:media": "http://search.yahoo.com/mrss/",
+            "xmlns:psc": "https://podlove.org/simple-chapters/",
+            "xmlns:omny": "https://omny.fm/rss-extensions",
+            "xmlns:content": "http://purl.org/rss/1.0/modules/content/",
+            "xmlns:acast": "https://schema.acast.com/1.0/",
+            "xmlns:podcast": "https://podcastindex.org/namespace/1.0",
+            "version": "2.0"
+        },
+        "channel": {
+            "omny:organizationId": {
+                "_text": "e73c998e-6e60-432f-8610-ae210140c5b1"
+            },
+            "omny:networkId": {
+                "_text": "e6332207-0c1b-4f4b-9893-ae3e015a2399"
+            },
+            "omny:programId": {
+                "_text": "9a833bc9-4300-4115-ad22-af5600f0e7a1"
+            },
+            "omny:playlistId": {
+                "_text": "e5a9488f-93ec-4a62-9ed1-af5600f1434b"
+            },
+            "language": {
+                "_text": "en-US"
+            },
+            "atom:link": [
+                {
+                    "_attributes": {
+                        "rel": "self",
+                        "type": "application/rss+xml",
+                        "href": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/e5a9488f-93ec-4a62-9ed1-af5600f1434b/podcast.rss"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "rel": "first",
+                        "type": "application/rss+xml",
+                        "href": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/e5a9488f-93ec-4a62-9ed1-af5600f1434b/podcast.rss?page=1"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "rel": "last",
+                        "type": "application/rss+xml",
+                        "href": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/e5a9488f-93ec-4a62-9ed1-af5600f1434b/podcast.rss?page=1"
+                    }
+                }
+            ],
+            "title": {
+                "_text": "Frosted Tips with Lance Bass"
+            },
+            "link": {
+                "_text": "https://www.iheart.com/podcast/867-frosted-tips-with-lance-ba-106328183/"
+            },
+            "description": {
+                "_cdata": "<p>Their ballads and bops got you through your teenage years...now let your favorite boy bands guide you through adulting! </p>\r\n<p> </p>\r\n<p>The ultimate boy-bander and host Lance Bass will help us we navigate the ups and downs of parenting, marriage, and everything in between.</p>\r\n<p> </p>\r\n<p>Each week, Lance Bass and his husband Michael will be joined by our biggest boy band crushes!</p>\r\n<p> </p>\r\n<p>Step-by-step...we will relive decades of Boy Band nostalgia by chatting with your all-time faves each week. </p>\r\n<p>From New Kids to B-S-B to 98 degrees...and of course, NSYNC....no boy band left behind!!</p>\r\n<p> </p>\r\n<p>So let's go in One Direction and have some fun...because we should never have to say Bye, Bye, Bye when you got The Right Stuff! </p>"
+            },
+            "itunes:type": {
+                "_text": "episodic"
+            },
+            "itunes:summary": {
+                "_text": "Their ballads and bops got you through your teenage years...now let your favorite boy bands guide you through adulting! \r\n\r\n\r\n\r\nThe ultimate boy-bander and host Lance Bass will help us we navigate the ups and downs of parenting, marriage, and everything in between.\r\n\r\n\r\n\r\nEach week, Lance Bass and his husband Michael will be joined by our biggest boy band crushes!\r\n\r\n\r\n\r\nStep-by-step...we will relive decades of Boy Band nostalgia by chatting with your all-time faves each week. \r\n\r\nFrom New Kids to B-S-B to 98 degrees...and of course, NSYNC....no boy band left behind!!\r\n\r\n\r\n\r\nSo let's go in One Direction and have some fun...because we should never have to say Bye, Bye, Bye when you got The Right Stuff! "
+            },
+            "itunes:owner": {
+                "itunes:name": {
+                    "_text": "iHeartPodfcasts"
+                },
+                "itunes:email": {
+                    "_text": "applepodcast@howstuffworks.com"
+                }
+            },
+            "itunes:author": {
+                "_text": "iHeartPodcasts"
+            },
+            "copyright": {
+                "_text": "2023 iHeartPodcasts"
+            },
+            "itunes:explicit": {
+                "_text": "no"
+            },
+            "itunes:category": [
+                {
+                    "_attributes": {
+                        "text": "Music"
+                    }
+                },
+                {
+                    "_attributes": {
+                        "text": "Society & Culture"
+                    }
+                }
+            ],
+            "itunes:image": {
+                "_attributes": {
+                    "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                }
+            },
+            "image": {
+                "url": {
+                    "_text": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                },
+                "title": {
+                    "_text": "Frosted Tips with Lance Bass"
+                },
+                "link": {
+                    "_text": "https://www.iheart.com/podcast/867-frosted-tips-with-lance-ba-106328183/"
+                }
+            },
+            "item": [
+                {
+                    "title": {
+                        "_text": "Joey Fatone (*NSYNC)"
+                    },
+                    "itunes:title": {
+                        "_text": "Joey Fatone (*NSYNC)"
+                    },
+                    "description": {
+                        "_cdata": "<p>God Must Have Spent a Little More Time On… Joey Fatone! That’s a fact that has never been more apparent than right now!  This episode almost seems too good to be true as Joey recalls his first impression of Lance, his honest opinion of his talents and what went down the first time Joey met JC and Justin. </p>\r\n<p>Plus, wait until you hear the details of a prank Lance once played on Joey, that included  a cop that wanted payback.</p>\r\n<p>This episode is guaranteed ‘tearin’ up your heart’ material.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "content:encoded": {
+                        "_cdata": "<p>God Must Have Spent a Little More Time On… Joey Fatone! That’s a fact that has never been more apparent than right now!  This episode almost seems too good to be true as Joey recalls his first impression of Lance, his honest opinion of his talents and what went down the first time Joey met JC and Justin. </p>\r\n<p>Plus, wait until you hear the details of a prank Lance once played on Joey, that included  a cop that wanted payback.</p>\r\n<p>This episode is guaranteed ‘tearin’ up your heart’ material.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "itunes:episodeType": {
+                        "_text": "full"
+                    },
+                    "itunes:author": {
+                        "_text": "iHeartPodcasts"
+                    },
+                    "itunes:image": {
+                        "_attributes": {
+                            "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                        }
+                    },
+                    "media:content": [
+                        {
+                            "_attributes": {
+                                "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/b0d35092-d5ba-4c63-af3c-af990169c8ce/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                                "type": "audio/mpeg"
+                            },
+                            "media:player": {
+                                "_attributes": {
+                                    "url": "https://omny.fm/shows/frosted-tips-with-lance-bass/joey-fatone-nsync/embed"
+                                }
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "url": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large",
+                                "type": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "guid": {
+                        "_attributes": {
+                            "isPermaLink": "false"
+                        },
+                        "_text": "b0d35092-d5ba-4c63-af3c-af990169c8ce"
+                    },
+                    "omny:clipId": {
+                        "_text": "b0d35092-d5ba-4c63-af3c-af990169c8ce"
+                    },
+                    "pubDate": {
+                        "_text": "Mon, 30 Jan 2023 05:00:00 +0000"
+                    },
+                    "itunes:duration": {
+                        "_text": "2782"
+                    },
+                    "enclosure": {
+                        "_attributes": {
+                            "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/b0d35092-d5ba-4c63-af3c-af990169c8ce/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                            "length": "44605053",
+                            "type": "audio/mpeg"
+                        }
+                    },
+                    "link": {
+                        "_text": "https://omny.fm/shows/frosted-tips-with-lance-bass/joey-fatone-nsync"
+                    },
+                    "itunes:explicit": {
+                        "_text": "yes"
+                    }
+                },
+                {
+                    "title": {
+                        "_text": "AJ McLean (Backstreet Boys) - Part Two"
+                    },
+                    "itunes:title": {
+                        "_text": "AJ McLean (Backstreet Boys) - Part Two"
+                    },
+                    "description": {
+                        "_cdata": "<p>The conversation with AJ McLean continues.</p>\r\n<p>AJ shares his parenthood journey and dealing with a life-changing decision by his daughter.</p>\r\n<p>Plus, a wild throwback as they read through an old interview AJ did with Teen Beat magazine!</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "content:encoded": {
+                        "_cdata": "<p>The conversation with AJ McLean continues.</p>\r\n<p>AJ shares his parenthood journey and dealing with a life-changing decision by his daughter.</p>\r\n<p>Plus, a wild throwback as they read through an old interview AJ did with Teen Beat magazine!</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "itunes:episodeType": {
+                        "_text": "full"
+                    },
+                    "itunes:author": {
+                        "_text": "iHeartPodcasts"
+                    },
+                    "itunes:image": {
+                        "_attributes": {
+                            "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                        }
+                    },
+                    "media:content": [
+                        {
+                            "_attributes": {
+                                "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/9f802512-33b3-4228-901d-af9500882ff4/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                                "type": "audio/mpeg"
+                            },
+                            "media:player": {
+                                "_attributes": {
+                                    "url": "https://omny.fm/shows/frosted-tips-with-lance-bass/aj-mclean-backstreet-boys-part-two/embed"
+                                }
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "url": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large",
+                                "type": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "guid": {
+                        "_attributes": {
+                            "isPermaLink": "false"
+                        },
+                        "_text": "9f802512-33b3-4228-901d-af9500882ff4"
+                    },
+                    "omny:clipId": {
+                        "_text": "9f802512-33b3-4228-901d-af9500882ff4"
+                    },
+                    "pubDate": {
+                        "_text": "Wed, 25 Jan 2023 20:00:00 +0000"
+                    },
+                    "itunes:duration": {
+                        "_text": "2064"
+                    },
+                    "enclosure": {
+                        "_attributes": {
+                            "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/9f802512-33b3-4228-901d-af9500882ff4/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                            "length": "33122060",
+                            "type": "audio/mpeg"
+                        }
+                    },
+                    "link": {
+                        "_text": "https://omny.fm/shows/frosted-tips-with-lance-bass/aj-mclean-backstreet-boys-part-two"
+                    }
+                },
+                {
+                    "title": {
+                        "_text": "AJ McLean (Backstreet Boys)"
+                    },
+                    "itunes:title": {
+                        "_text": "AJ McLean (Backstreet Boys)"
+                    },
+                    "description": {
+                        "_cdata": "<p>I Want It That Way… Lance and Backstreet Boys’ AJ McLean together! </p>\r\n<p>They’re talking about the wild rides to fame and fortune. AJ opens up to Lance about his personal battles and recovery and how he got to where he is today.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "content:encoded": {
+                        "_cdata": "<p>I Want It That Way… Lance and Backstreet Boys’ AJ McLean together! </p>\r\n<p>They’re talking about the wild rides to fame and fortune. AJ opens up to Lance about his personal battles and recovery and how he got to where he is today.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "itunes:episodeType": {
+                        "_text": "full"
+                    },
+                    "itunes:author": {
+                        "_text": "iHeartPodcasts"
+                    },
+                    "itunes:image": {
+                        "_attributes": {
+                            "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                        }
+                    },
+                    "media:content": [
+                        {
+                            "_attributes": {
+                                "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/af87d445-ccf5-4138-87a6-af930052725c/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                                "type": "audio/mpeg"
+                            },
+                            "media:player": {
+                                "_attributes": {
+                                    "url": "https://omny.fm/shows/frosted-tips-with-lance-bass/aj-mclean-backstreet-boys/embed"
+                                }
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "url": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large",
+                                "type": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "guid": {
+                        "_attributes": {
+                            "isPermaLink": "false"
+                        },
+                        "_text": "af87d445-ccf5-4138-87a6-af930052725c"
+                    },
+                    "omny:clipId": {
+                        "_text": "af87d445-ccf5-4138-87a6-af930052725c"
+                    },
+                    "pubDate": {
+                        "_text": "Mon, 23 Jan 2023 05:02:18 +0000"
+                    },
+                    "itunes:duration": {
+                        "_text": "2908"
+                    },
+                    "enclosure": {
+                        "_attributes": {
+                            "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/af87d445-ccf5-4138-87a6-af930052725c/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                            "length": "46615861",
+                            "type": "audio/mpeg"
+                        }
+                    },
+                    "link": {
+                        "_text": "https://omny.fm/shows/frosted-tips-with-lance-bass/aj-mclean-backstreet-boys"
+                    }
+                },
+                {
+                    "title": {
+                        "_text": "Jonathan Knight (NKOTB)"
+                    },
+                    "itunes:title": {
+                        "_text": "Jonathan Knight (NKOTB)"
+                    },
+                    "description": {
+                        "_cdata": "<p>You got the right stuff, baby…with Jonathan Knight from NEW KIDS ON THE BLOCK! Lance and Jonathan talk about being gay in a boy band and the fear of coming out and Jonathan opens up about his struggle to start a family. </p>\r\n<p>Plus, hot new music from New Kids. </p>\r\n<p>And…why New Kids are making waves on the high seas.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "content:encoded": {
+                        "_cdata": "<p>You got the right stuff, baby…with Jonathan Knight from NEW KIDS ON THE BLOCK! Lance and Jonathan talk about being gay in a boy band and the fear of coming out and Jonathan opens up about his struggle to start a family. </p>\r\n<p>Plus, hot new music from New Kids. </p>\r\n<p>And…why New Kids are making waves on the high seas.</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "itunes:episodeType": {
+                        "_text": "full"
+                    },
+                    "itunes:author": {
+                        "_text": "iHeartPodcasts"
+                    },
+                    "itunes:image": {
+                        "_attributes": {
+                            "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                        }
+                    },
+                    "media:content": [
+                        {
+                            "_attributes": {
+                                "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/02caa3ea-f6af-4388-8ea5-af8c00237a17/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                                "type": "audio/mpeg"
+                            },
+                            "media:player": {
+                                "_attributes": {
+                                    "url": "https://omny.fm/shows/frosted-tips-with-lance-bass/jonathan-knight-nkotb/embed"
+                                }
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "url": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large",
+                                "type": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "guid": {
+                        "_attributes": {
+                            "isPermaLink": "false"
+                        },
+                        "_text": "02caa3ea-f6af-4388-8ea5-af8c00237a17"
+                    },
+                    "omny:clipId": {
+                        "_text": "02caa3ea-f6af-4388-8ea5-af8c00237a17"
+                    },
+                    "pubDate": {
+                        "_text": "Mon, 16 Jan 2023 05:00:00 +0000"
+                    },
+                    "itunes:duration": {
+                        "_text": "3933"
+                    },
+                    "enclosure": {
+                        "_attributes": {
+                            "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/02caa3ea-f6af-4388-8ea5-af8c00237a17/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                            "length": "63027367",
+                            "type": "audio/mpeg"
+                        }
+                    },
+                    "link": {
+                        "_text": "https://omny.fm/shows/frosted-tips-with-lance-bass/jonathan-knight-nkotb"
+                    },
+                    "itunes:explicit": {
+                        "_text": "yes"
+                    }
+                },
+                {
+                    "title": {
+                        "_text": "JC Chasez (*NSYNC)"
+                    },
+                    "itunes:title": {
+                        "_text": "JC Chasez (*NSYNC)"
+                    },
+                    "description": {
+                        "_cdata": "<p>This I Promise You… Lance and JC Chasez TOGETHER!</p>\r\n<p>Everything that you want to know about Lance, JC Chasez and *NSYNC! Lance and JC talk *NSYNC from inception to today. They address the extremely hot topic of a potential *NSYNC reunion, as well as JC's love life and when will he release music again!</p>\r\n<p>Plus…a Q&amp;A 25 years in the making!</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "content:encoded": {
+                        "_cdata": "<p>This I Promise You… Lance and JC Chasez TOGETHER!</p>\r\n<p>Everything that you want to know about Lance, JC Chasez and *NSYNC! Lance and JC talk *NSYNC from inception to today. They address the extremely hot topic of a potential *NSYNC reunion, as well as JC's love life and when will he release music again!</p>\r\n<p>Plus…a Q&amp;A 25 years in the making!</p><p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "itunes:episodeType": {
+                        "_text": "full"
+                    },
+                    "itunes:author": {
+                        "_text": "iHeartPodcasts"
+                    },
+                    "itunes:image": {
+                        "_attributes": {
+                            "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                        }
+                    },
+                    "media:content": [
+                        {
+                            "_attributes": {
+                                "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/d6ef416e-37f0-466a-8fb2-af84016ae28e/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                                "type": "audio/mpeg"
+                            },
+                            "media:player": {
+                                "_attributes": {
+                                    "url": "https://omny.fm/shows/frosted-tips-with-lance-bass/jc-chasez-nsync/embed"
+                                }
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "url": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large",
+                                "type": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "guid": {
+                        "_attributes": {
+                            "isPermaLink": "false"
+                        },
+                        "_text": "d6ef416e-37f0-466a-8fb2-af84016ae28e"
+                    },
+                    "omny:clipId": {
+                        "_text": "d6ef416e-37f0-466a-8fb2-af84016ae28e"
+                    },
+                    "pubDate": {
+                        "_text": "Mon, 09 Jan 2023 05:00:00 +0000"
+                    },
+                    "itunes:duration": {
+                        "_text": "5012"
+                    },
+                    "enclosure": {
+                        "_attributes": {
+                            "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/d6ef416e-37f0-466a-8fb2-af84016ae28e/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                            "length": "80278551",
+                            "type": "audio/mpeg"
+                        }
+                    },
+                    "link": {
+                        "_text": "https://omny.fm/shows/frosted-tips-with-lance-bass/jc-chasez-nsync"
+                    }
+                },
+                {
+                    "title": {
+                        "_text": "Introducing: Frosted Tips with Lance Bass"
+                    },
+                    "itunes:title": {
+                        "_text": "Introducing: Frosted Tips with Lance Bass"
+                    },
+                    "description": {
+                        "_cdata": "<p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "content:encoded": {
+                        "_cdata": "<p>See <a href=\"https://omnystudio.com/listener\">omnystudio.com/listener</a> for privacy information.</p>"
+                    },
+                    "itunes:episodeType": {
+                        "_text": "trailer"
+                    },
+                    "itunes:author": {
+                        "_text": "iHeartPodcasts"
+                    },
+                    "itunes:image": {
+                        "_attributes": {
+                            "href": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large"
+                        }
+                    },
+                    "media:content": [
+                        {
+                            "_attributes": {
+                                "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/7070812b-5c28-48bf-8880-af73010706fa/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                                "type": "audio/mpeg"
+                            },
+                            "media:player": {
+                                "_attributes": {
+                                    "url": "https://omny.fm/shows/frosted-tips-with-lance-bass/introducing-frosted-tips-with-lance-bass/embed"
+                                }
+                            }
+                        },
+                        {
+                            "_attributes": {
+                                "url": "https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/image.jpg?t=1672671871&size=Large",
+                                "type": "image/jpeg"
+                            }
+                        }
+                    ],
+                    "guid": {
+                        "_attributes": {
+                            "isPermaLink": "false"
+                        },
+                        "_text": "7070812b-5c28-48bf-8880-af73010706fa"
+                    },
+                    "omny:clipId": {
+                        "_text": "7070812b-5c28-48bf-8880-af73010706fa"
+                    },
+                    "pubDate": {
+                        "_text": "Tue, 03 Jan 2023 05:01:00 +0000"
+                    },
+                    "itunes:duration": {
+                        "_text": "64"
+                    },
+                    "enclosure": {
+                        "_attributes": {
+                            "url": "https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/9a833bc9-4300-4115-ad22-af5600f0e7a1/7070812b-5c28-48bf-8880-af73010706fa/audio.mp3?utm_source=Podcast&in_playlist=e5a9488f-93ec-4a62-9ed1-af5600f1434b",
+                            "length": "1032480",
+                            "type": "audio/mpeg"
+                        }
+                    },
+                    "link": {
+                        "_text": "https://omny.fm/shows/frosted-tips-with-lance-bass/introducing-frosted-tips-with-lance-bass"
+                    }
+                }
+            ]
+        }
+    }
+}
