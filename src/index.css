@@ -21,6 +21,15 @@ input[type="text"] {
     box-shadow: 0 0 3px lightgray;
 }
 
+.header {
+    margin: 0 20%;
+    border-bottom: 1px solid lightgray;
+}
+
+.header h2 a {
+    color: cornflowerblue;
+}
+
 .podcasts {
     display: flex;
     flex-direction: column;
