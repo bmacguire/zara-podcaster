@@ -5,10 +5,8 @@ export default function PodcastItem({ podcast }) {
         podcastId,
         name,
         author,
-        image: {
-            url: imageUrl,
-            size: imageSize
-        }
+        imageUrl,
+        imageSize
     } = podcast;
     
     return (

@@ -26,8 +26,18 @@ input[type="text"] {
     border-bottom: 1px solid lightgray;
 }
 
+.header h2 {
+    margin: 0;
+    padding: 10px 0;
+}
+
 .header h2 a {
     color: cornflowerblue;
+}
+
+.error {
+    margin: 20px 20%;
+    color: red;
 }
 
 .podcasts {
@@ -87,4 +97,118 @@ input[type="text"] {
     color: gray;
     text-align: center;
     font-size: .85rem;
+}
+
+.podcast {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 20%;
+    gap: 60px;
+}
+
+.podcast .podcast-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 0 0 3px lightgray;
+    width: 200px;
+    min-width: 200px;
+    padding: 10px 7px;
+    gap: 10px;
+}
+
+.podcast .podcast-card .image-link {
+    display: flex;
+    justify-content: center;
+}
+
+.podcast .podcast-card .image-link img {
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+.podcast .podcast-card .name-author-link {
+    padding-left: 10px;
+}
+
+.podcast .podcast-card hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid lightgray;
+}
+
+.podcast .episodes {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+}
+
+.podcast .episodes .count {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 0 0 3px lightgray;
+}
+
+.podcast .episodes .count h2 {
+    margin: 0;
+    padding: 10px;
+}
+
+.podcast .episodes .list {
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 0 0 3px lightgray;
+}
+
+.podcast .episodes .list table {
+    width: 100%;
+    padding: 15px;
+}
+
+.podcast .episodes .list table thead tr th {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.podcast .episodes .list table tbody tr td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.podcast .episodes .list table tbody tr td a {
+    color: cornflowerblue;
+}
+
+.podcast .episodes .list table tbody tr:nth-child(2n + 1) {
+    background-color: #eee;
+}
+
+.podcast .episode {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    box-shadow: 0 0 3px lightgray;
+    padding: 15px;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.podcast .episode h2 {
+    margin: 0;
+}
+
+.podcast .episode a {
+    color: cornflowerblue;
+}
+
+.podcast .episode audio {
+    width: 100%;
 }

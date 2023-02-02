@@ -8,12 +8,15 @@ export default function Podcasts() {
     const [podcasts, setPodcasts] = useLocalStorageState("podcasts", []);
     const [podcastsFetchDate, setPodcastsFetchDate] = useLocalStorageState("podcastsFetchDate", null);
 
-    // TODO: Check if is better to use useTransition here
+    // TODO: Check if it is better to use useTransition here
     const [filter, setFilter] = useState("");
 
     const fetchPodcasts = useCallback(async () => {
         const podcasts = await getPodcasts();
 
+        // TODO: If there is no podcasts, then the user would
+        // have to wait a day for new results. Fix that
+        
         setPodcasts(podcasts);
         setPodcastsFetchDate(new Date().toUTCString());
     }, [setPodcasts, setPodcastsFetchDate]);

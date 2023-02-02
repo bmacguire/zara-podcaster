@@ -1,26 +1,86 @@
-import { PODCASTS_URL } from "../consts/urls";
-import { fetchJson } from "./utils";
+import { PODCASTS_URL, PODCAST_URL } from "../consts/urls";
+import { fetchJson, fetchXml, formatDate, formatDuration } from "./utils";
+
+const EMPTY = "EMPTY";
+const DEFAULT_IMAGE_SIZE = 55;
 
 export async function getPodcasts() {
-    const podcastJson = await fetchJson(PODCASTS_URL);
+    const podcastsJson = await fetchJson(PODCASTS_URL);
 
-    if (!podcastJson) {
+    if (!podcastsJson) {
         return [];
     }
-    
+
     try {
-        return podcastJson.feed.entry.map(x => ({
-            podcastId: x.id.attributes["im:id"],
-            name: x["im:name"].label,
-            author: x["im:artist"].label,
-            image: {
-                url: x["im:image"][0].label,
-                size: x["im:image"][0].attributes.height
+        const entry = podcastsJson.feed?.entry;
+
+        if (!entry || !entry.length) {
+            return [];
+        }
+        
+        return entry.map(x => {
+            const podcastId = (x.id?.attributes && x.id?.attributes["im:id"]) ? x.id.attributes["im:id"] : crypto.randomUUID();
+            const imageUrl = (x["im:image"] && x["im:image"].length) ? x["im:image"][0].label : undefined;
+            const imageSize = (x["im:image"] && x["im:image"].length) ? (x["im:image"][0].attributes?.height ?? DEFAULT_IMAGE_SIZE) : DEFAULT_IMAGE_SIZE;
+
+            return {
+                podcastId,
+                name: x["im:name"]?.label ?? EMPTY,
+                author: x["im:artist"]?.label ?? EMPTY,
+                imageUrl,
+                imageSize
             }
-        }));
+        });
     } catch (error) {
         console.log(error);
 
         return [];
+    }
+}
+
+export async function getPodcast(podcastId) {
+    const podcastJson = await fetchJson(`${PODCAST_URL}${podcastId}`);
+
+    if (!podcastJson) {
+        return null;
+    }
+
+    try {
+        if (!podcastJson.results || !podcastJson.results.length) {
+            return null;
+        }
+
+        const feedUrl = podcastJson.results[0].feedUrl;
+        const podcastFeedJson = await fetchXml(feedUrl);
+
+        if (!podcastFeedJson) {
+            return null;
+        }
+
+        const channel = podcastFeedJson.rss?.channel;
+
+        if (!channel) {
+            return null;
+        }
+
+        return {
+            podcastId,
+            imageUrl: channel["itunes:image"]?._attributes?.href,
+            name: channel.title?._text ?? EMPTY,
+            author: channel["itunes:author"]?._text ?? EMPTY,
+            summary: channel["itunes:summary"]?._text ?? EMPTY,
+            episodes: (channel.item && channel.item.length) ? channel.item.map(x => ({
+                episodeId: x.guid?._text ?? crypto.randomUUID(),
+                name: x.title?._text ?? EMPTY,
+                date: formatDate(x.pubDate?._text) ?? EMPTY,
+                duration: formatDuration(x["itunes:duration"]?._text),
+                summary: x.description?._cdata ?? EMPTY,
+                audioUrl: x.enclosure?._attributes?.url
+            })) : []
+        }
+    } catch (error) {
+        console.log(error);
+
+        return null;
     }
 }
