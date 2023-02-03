@@ -1,5 +1,7 @@
 import { Link } from "react-router-dom";
 
+const EMPTY = "EMPTY";
+
 export default function PodcastCard({ podcast }) {
     const { podcastId, imageUrl, name, author, summary } = podcast;
 
@@ -12,7 +14,7 @@ export default function PodcastCard({ podcast }) {
             <Link to={`/podcast/${podcastId}`} className="name-author-link">
                 <div>
                     <b>{name}</b><br />
-                    <small><i>by {author}</i></small>
+                    {(author !== EMPTY) && <small><i>by {author}</i></small>}
                 </div>
             </Link>
             <hr />

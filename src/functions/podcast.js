@@ -2,7 +2,7 @@ import { PODCASTS_URL, PODCAST_URL } from "../consts/urls";
 import { fetchJson, fetchXml, formatDate, formatDuration } from "./utils";
 
 const EMPTY = "EMPTY";
-const DEFAULT_IMAGE_SIZE = 55;
+const DEFAULT_IMAGE_SIZE = 55; // px
 
 export async function getPodcasts() {
     const podcastsJson = await fetchJson(PODCASTS_URL);
@@ -15,6 +15,8 @@ export async function getPodcasts() {
         const entry = podcastsJson.feed?.entry;
 
         if (!entry || !entry.length) {
+            console.log("Error fetching podcasts");
+
             return [];
         }
         
@@ -47,6 +49,8 @@ export async function getPodcast(podcastId) {
 
     try {
         if (!podcastJson.results || !podcastJson.results.length) {
+            console.log("Error fetching podcast");
+
             return null;
         }
 
@@ -60,6 +64,8 @@ export async function getPodcast(podcastId) {
         const channel = podcastFeedJson.rss?.channel;
 
         if (!channel) {
+            console.log("Error fetching podcast");
+
             return null;
         }
 
@@ -74,7 +80,7 @@ export async function getPodcast(podcastId) {
                 name: x.title?._text ?? EMPTY,
                 date: formatDate(x.pubDate?._text) ?? EMPTY,
                 duration: formatDuration(x["itunes:duration"]?._text),
-                summary: x.description?._cdata ?? EMPTY,
+                summary: x.description?._cdata ?? "<p></p>",
                 audioUrl: x.enclosure?._attributes?.url
             })) : []
         }

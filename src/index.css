@@ -24,6 +24,9 @@ input[type="text"] {
 .header {
     margin: 0 20%;
     border-bottom: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .header h2 {
@@ -33,11 +36,6 @@ input[type="text"] {
 
 .header h2 a {
     color: cornflowerblue;
-}
-
-.error {
-    margin: 20px 20%;
-    color: red;
 }
 
 .podcasts {
@@ -209,6 +207,12 @@ input[type="text"] {
     color: cornflowerblue;
 }
 
-.podcast .episode audio {
-    width: 100%;
+.podcast .episode div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.podcast .episode div:last-child audio {
+    flex-grow: 1;
 }
