@@ -15,9 +15,11 @@ export default function Episode({ episode }) {
             <h2>{name}</h2>
             <div>
                 <small>
+                    {/* Show description as HTML */}
                     <i>{parse(summary)}</i>
                 </small>
             </div>
+            <hr />
             <div>
                 <audio
                     src={audioUrl}

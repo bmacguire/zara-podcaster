@@ -15,8 +15,12 @@ export default function Podcast() {
     
     const podcast = fetchedPodcasts.find(p => p.podcastId === podcastId);
     const episode = podcast ? podcast.episodes.find(e => e.episodeId === episodeId) : null;
+
+    // Either the podcast couldn't be found or an episode
+    // couldn't be found when it was requested
     const error = !podcast || (!episode && episodeId);
 
+    // Log errors, if any
     if (!loading && !podcast) {
         console.log("Podcast not found");
     }

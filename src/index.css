@@ -207,6 +207,12 @@ input[type="text"] {
     color: cornflowerblue;
 }
 
+.podcast .episode hr {
+    width: 100%;
+    border: 0;
+    border-top: 1px solid lightgray;
+}
+
 .podcast .episode div:last-child {
     display: flex;
     align-items: center;
