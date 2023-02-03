@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 // Works like useState but it saves the state to localStorage
 export default function useLocalStorageState(key, initialValue) {
     // Use an app key to avoid conflicts in the localStorage
+    // for other apps
     const appKey = `zara-podcaster-${key}`;
     
     const [value, setValue] = useState(() => {

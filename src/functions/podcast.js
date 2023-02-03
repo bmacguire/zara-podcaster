@@ -1,5 +1,6 @@
 import { PODCASTS_URL, PODCAST_URL } from "../consts/urls";
 import { fetchJson, fetchXml, formatDate, formatDuration } from "./utils";
+import moment from "moment/moment";
 
 const EMPTY = "EMPTY";
 const DEFAULT_IMAGE_SIZE = 55; // px
@@ -75,11 +76,16 @@ export async function getPodcast(podcastId) {
             name: channel.title?._text ?? EMPTY,
             author: channel["itunes:author"]?._text ?? EMPTY,
             summary: channel["itunes:summary"]?._text ?? EMPTY,
+            fetchDate: moment().utc().format(),
             episodes: (channel.item && channel.item.length) ? channel.item.map(x => ({
                 episodeId: x.guid?._text ?? crypto.randomUUID(),
                 name: x.title?._text ?? EMPTY,
                 date: formatDate(x.pubDate?._text) ?? EMPTY,
+
+                // Ask here, as duration is not always accurate.
+                // Maybe take it from the audio file itself?
                 duration: formatDuration(x["itunes:duration"]?._text),
+                
                 summary: x.description?._cdata ?? "<p></p>",
                 audioUrl: x.enclosure?._attributes?.url
             })) : []

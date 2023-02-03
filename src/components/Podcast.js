@@ -2,6 +2,7 @@ import { useEffect, useCallback, useState } from "react";
 import { useParams } from "react-router-dom";
 import useLocalStorageState from "../hooks/useLocalStorageState";
 import { getPodcast } from "../functions/podcast";
+import { getDaysDifference } from "../functions/utils";
 import Header from "./Header";
 import PodcastCard from "./PodcastCard";
 import Episodes from "./Episodes";
@@ -15,6 +16,14 @@ export default function Podcast() {
     const podcast = fetchedPodcasts.find(p => p.podcastId === podcastId);
     const episode = podcast ? podcast.episodes.find(e => e.episodeId === episodeId) : null;
     const error = !podcast || (!episode && episodeId);
+
+    if (!loading && !podcast) {
+        console.log("Podcast not found");
+    }
+
+    if (!loading && !episode && episodeId) {
+        console.log("Podcast episode not found");
+    }
     
     const fetchPodcast = useCallback(async (podcastId) => {
         const podcast = await getPodcast(podcastId);
@@ -30,8 +39,7 @@ export default function Podcast() {
     }, [setFetchedPodcasts, setLoading]);
 
     useEffect(() => {
-        // TODO: Add check for date diff more than one day
-        if (!podcast) {
+        if (!podcast || getDaysDifference(podcast.fetchDate) > 0) {
             fetchPodcast(podcastId);
         } else {
             setLoading(false);

@@ -1,6 +1,8 @@
 import { useEffect, useCallback, useState } from "react";
 import useLocalStorageState from "../hooks/useLocalStorageState";
 import { getPodcasts } from "../functions/podcast";
+import { getDaysDifference } from "../functions/utils";
+import moment from "moment/moment";
 import Header from "./Header";
 import PodcastItem from "./PodcastItem";
 
@@ -10,7 +12,7 @@ export default function Podcasts() {
     const [loading, setLoading] = useState(true);
 
     // TODO: Check if it is better to use useTransition here.
-    // Perhaps not, because results are already cached
+    // Perhaps not, because results are already cached?
     const [filter, setFilter] = useState("");
 
     const filteredPodcasts = podcasts.filter(p => {
@@ -28,23 +30,22 @@ export default function Podcasts() {
         // have to wait a day for new results. Fix that
 
         setPodcasts(podcasts);
-        setPodcastsFetchDate(new Date().toUTCString());
+        setPodcastsFetchDate(moment().utc().format());
         setLoading(false);
     }, [setPodcasts, setPodcastsFetchDate, setLoading]);
-
+    
     function handleFilterChange({ target: { value } }) {
         setFilter(value);
     }
-
+    
     useEffect(() => {
-        // TODO: Add check for date diff more than one day
-        if (!podcastsFetchDate) {
+        if (!podcastsFetchDate || getDaysDifference(podcastsFetchDate) > 0) {
             fetchPodcasts();
         } else {
             setLoading(false);
         }
     }, [podcastsFetchDate, fetchPodcasts, setLoading]);
-
+    
     return (
         <>
             <Header loading={loading} />

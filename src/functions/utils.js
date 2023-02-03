@@ -1,4 +1,5 @@
 import { xml2json } from "xml-js";
+import moment from "moment/moment";
 
 // This CORS app needs to be activated in order to use it,
 // and is temporarily. Activation can be done visiting the
@@ -40,6 +41,13 @@ export async function fetchXml(url) {
 
         return null;
     }
+}
+
+export function getDaysDifference(dateText) {
+    const prevDate = moment(dateText).utc();
+    const currDate = moment().utc();
+
+    return currDate.diff(prevDate, "days");
 }
 
 export function formatDate(dateText) {
